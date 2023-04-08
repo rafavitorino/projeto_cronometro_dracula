@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+    body{
+        margin: 0px;
+        padding-top: 30px;
+
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+
+        background-color: #282a36;
+    }
+    h1{
+        font-family: 'Delicious Handrawn', cursive;
+        text-align: center;
+
+        font-size: 5em;
+
+        color: #ff79c6;
+    }
+    .conteiner{
+        margin: auto;
+
+        width: 400px;
+
+    }
+    .buttons{
+        width: 47.7%;
+        margin: auto;
+
+    }
+    button{
+        padding: 6px;
+
+        color: white;
+        background-color: #44475a;
+
+        border: 0px;
+        border-radius: 5px;
+
+        font-family: 'Delicious Handrawn', cursive;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    button:hover{
+        color: #ff79c6;
+        cursor: pointer;
+
+        background-color: #44475acc;
+        transition: 0.5s;
+
+    }
